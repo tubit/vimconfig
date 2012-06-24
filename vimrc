@@ -1,3 +1,4 @@
+
 " Normally we use vim-extensions. If you want true vi-compatibility
 " remove change the following statements
 set nocompatible               " Use Vim defaults instead of 100% vi compatibility
@@ -15,11 +16,14 @@ filetype on
 filetype off
 
 " vundle
-set rtp+=~/.vim/Bundle/vundle/
-call vundle#rc()
+" set rtp+=~/.vim/Bundle/vundle/
+" call vundle#rc()
 
 " load bundle config
-runtime config/bundle.config
+" runtime config/bundle.config
+
+" load pathogen
+call pathogen#infect()
 
 " turn on all filetype settings, syntax, etc
 filetype plugin indent on
