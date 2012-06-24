@@ -12,21 +12,16 @@ set history=100
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 
 " turn filetype settings off so plugin's get loaded from vundle
-filetype on
 filetype off
-
-" vundle
-" set rtp+=~/.vim/Bundle/vundle/
-" call vundle#rc()
-
-" load bundle config
-" runtime config/bundle.config
 
 " load pathogen
 call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()  " generate helptag documentation for any existing bundles
 
 " turn on all filetype settings, syntax, etc
 filetype plugin indent on
+filetype on
 syntax on
 
 " load everything else in its own config file
@@ -41,5 +36,4 @@ endif
 if filereadable(" /etc/vim/vimrc.local " )
   source /etc/vim/vimrc.local
 endif
-
 
