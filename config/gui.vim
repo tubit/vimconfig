@@ -10,7 +10,7 @@ if has("gui_running")
     set guioptions-=L
 
     " open nerdtree on startup 
-    autocmd VimEnter * NERDTree
+"    autocmd VimEnter * NERDTree
  
     set gfn=Menlo\ Regular:h14
     set go=egmt
