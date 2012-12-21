@@ -20,5 +20,5 @@
 # Sample Usage:
 #
 class ['modulename'] {
-  <+CURSOR+>
+    <+CURSOR+>
 }

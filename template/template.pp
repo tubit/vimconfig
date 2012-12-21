@@ -3,9 +3,8 @@
 :if search('<+CURSOR+>')
 : normal! "_da>
 :endif
+#######################################################
 # Class: ['classpath']
-#
-# This class does stuff that you describe here
 #
 # Parameters:
 #   $parameter:
@@ -20,5 +19,5 @@
 # Sample Usage:
 #
 class ['classpath'] {
-  <+CURSOR+>
+    <+CURSOR+>
 }
