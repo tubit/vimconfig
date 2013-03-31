@@ -1,5 +1,5 @@
 " Variables for template interpolation
-let email_address = "dennis@tubit.de"
+let email_address = "dkonert@gmail.com"
 let fullname = "Dennis Konert"
 let template_date_format_string = "%a %b %d %Y"
 
