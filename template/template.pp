@@ -6,17 +6,13 @@
 #######################################################
 # Class: ['classpath']
 #
-# Parameters:
-#   $parameter:
-#       this global variable is used to do things
+# == Parameters
 #
-# Actions:
-#   Actions should be described here
+# == Examples
 #
-# Requires:
-#   - Package["foopackage"]
+# == Author
 #
-# Sample Usage:
+# Dennis Konert <dkonert@gmail.com>
 #
 class ['classpath'] {
     <+CURSOR+>
