@@ -12,8 +12,8 @@
 #
 # == Author
 #
-# Dennis Konert <dkonert@gmail.com>
+# Dennis Konert <d.konert@conversis.de>
 #
 class ['classpath'] {
-    <+CURSOR+>
+  <+CURSOR+>
 }

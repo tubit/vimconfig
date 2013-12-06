@@ -3,22 +3,17 @@
 :if search('<+CURSOR+>')
 : normal! "_da>
 :endif
+#######################################################
 # Class: ['classpath']
 #
-# This class does stuff that you describe here
+# == Parameters
 #
-# Parameters:
-#   $parameter:
-#       this global variable is used to do things
+# == Examples
 #
-# Actions:
-#   Actions should be described here
+# == Author
 #
-# Requires:
-#   - Package["foopackage"]
+# Dennis Konert <d.konert@conversis.de>
 #
-# Sample Usage:
-#
-class ['modulename'] {
-    <+CURSOR+>
+class ['classpath'] {
+  <+CURSOR+>
 }
