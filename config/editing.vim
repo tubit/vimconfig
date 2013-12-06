@@ -39,7 +39,7 @@ autocmd BufReadPost *
    \ exe "normal! g`\"" |
    \ endif
 
-" four spaces, always
+" two spaces, always
 set expandtab
 set softtabstop=2
 set tabstop=2

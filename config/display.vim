@@ -26,5 +26,5 @@ set statusline+=\ [%{&fileencoding}]\           " file encoding
 set statusline+=(%l,%c%V)\ %<%P                 " offset
 
 " red status bar for insert mode
-"au InsertEnter * hi StatusLine ctermbg=16 ctermfg=1
-"au InsertLeave * hi StatusLine ctermbg=16 ctermfg=8
+au InsertEnter * hi StatusLine ctermbg=16 ctermfg=1
+au InsertLeave * hi StatusLine ctermbg=16 ctermfg=8

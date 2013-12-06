@@ -24,6 +24,9 @@ filetype plugin indent on
 filetype on
 syntax on
 
+" set leader first
+let mapleader = ","
+
 " load everything else in its own config file
 runtime! config/**/*.vim
 

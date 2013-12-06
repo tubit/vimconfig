@@ -10,7 +10,7 @@ else
 endif
 
 " map leader
-let mapleader = ","
+"let mapleader = ","
 
 " keep block visually marked when indenting
 "nmap > ><CR>gv
@@ -29,7 +29,7 @@ vnoremap <silent> <C-Down> :<C-u>call MoveVisualDown()<CR>
 " show invisibles (http://vimcasts.org/episodes/show-invisibles/)
 " shortcut to rapidly toggle `set list` with TextMate's tabstops and EOLs
 nmap <Leader>l :set list!<CR>
-"set listchars=tab:▸\ ,eol:¬,trail:·
+set listchars=tab:▸\ ,eol:¬,trail:·
 
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
