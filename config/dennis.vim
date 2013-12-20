@@ -39,3 +39,11 @@ ino <silent> <s-tab> <c-r>=BackwardsSnippet()<cr>
 snor <silent> <s-tab> <esc>i<right><c-r>=BackwardsSnippet()<cr>
 inor <silent> <s-tab> <c-r>=ShowAvailableSnips()<cr>
 
+" for dragvisuals.vim
+vmap <expr> a DVB_Drag('left')
+vmap <expr> d DVB_Drag('right')
+vmap <expr> s DVB_Drag('down')
+vmap <expr> w DVB_Drag('up')
+vmap <expr> D DVB_Duplicate()
+let g:DVB_TrimWS = 1
+
