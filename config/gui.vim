@@ -3,7 +3,7 @@ if has("gui_running")
 
     " fullscreen
     set fuoptions=maxhorz,maxvert
-    
+
     " no toolbar, no scrollbars
     set guioptions-=T
     set guioptions-=r
@@ -11,7 +11,7 @@ if has("gui_running")
 
     " open nerdtree on startup 
 "    autocmd VimEnter * NERDTree
- 
+
     set gfn=Menlo\ Regular:h14
     set go=egmt
 endif
