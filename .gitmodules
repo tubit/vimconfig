@@ -1,6 +1,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
@@ -39,7 +39,7 @@
 	url = https://github.com/tpope/vim-pastie.git
 [submodule "bundle/vim-puppet"]
 	path = bundle/vim-puppet
-	url = git://github.com/rodjek/vim-puppet.git
+	url = https://github.com/rodjek/vim-puppet.git
 [submodule "bundle/vim-railscasts-theme"]
 	path = bundle/vim-railscasts-theme
 	url = https://github.com/jpo/vim-railscasts-theme.git

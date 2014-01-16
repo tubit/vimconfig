@@ -29,6 +29,7 @@ let g:syntastic_mode_map = { 'mode': 'active',
 
 " check syntax on file open
 "let g:syntastic_check_on_open=1
+let g:syntastic_puppet_puppetlint_args = "--no-80chars-check --no-class_inherits_from_params_class-check"
 
 " enable puppet module detection
 let g:puppet_module_detect=1
